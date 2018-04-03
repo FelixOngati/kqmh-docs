@@ -1,4 +1,4 @@
-Getting Started with 3PM
+Getting Started with KQMH
 ========================
 
 System Access
@@ -30,9 +30,9 @@ The dashboard is customisable to fit your own preferences in terms of the report
    More about dashboard is discussed under the Reports section.
 
 
-3PM Applications
+KQMH Applications
 ----------------
-3PM is built on DHIS2 platform such that all the modules are organized as apps. Everything can be accessed by searching on the apps, but this is dependent on the rights one has.
+KQMH is built on DHIS2 platform such that all the modules are organized as apps. Everything can be accessed by searching on the apps, but this is dependent on the rights one has.
 
    .. figure:: /_static/img/apps.png
 
