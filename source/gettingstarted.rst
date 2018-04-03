@@ -1,5 +1,5 @@
 Getting Started with KQMH
-========================
+===========================
 
 System Access
 -------------
@@ -29,7 +29,7 @@ The dashboard is customisable to fit your own preferences in terms of the report
 
 
 KQMH Applications
-----------------
+-------------------
 KQMH is built on DHIS2 platform such that all the modules are organized as apps. Everything can be accessed by searching on the apps, but this is dependent on the rights one has.
 
    .. figure:: /_static/img/kqmh-apps.png
@@ -37,7 +37,7 @@ KQMH is built on DHIS2 platform such that all the modules are organized as apps.
    	  Figure 3: KQMH Apps
 
 Logging Out
------------
+--------------
 On the far right of the top bar on the system, there is Profile menu. When you hover your mouse pointer on the menu, a drop down appears that has a log out button. Click on the button to signout. Below is a screenshot of the same:
 
 .. figure:: /_static/img/kqmh-logout.png
