@@ -1,7 +1,7 @@
 Data Entry
-==========
+============
 
-The 3PM data entry module is designed in such a way that an Implementing Partner can only enter their data. After logging into the system, hover mouse pointer/click on the Apps icon on the far left as shown on the figure below. On the dropdown that appears, click on Data Entry icon.
+After logging into the system, hover mouse pointer/click on the Apps icon on the far left as shown on the figure below. On the dropdown that appears, click on Data Entry icon.
 
 ***Image here***
 

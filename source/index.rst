@@ -9,7 +9,6 @@ Welcome to KQMH Documentation!
    datasets
    dataentry
    reports
-   support
 
 
 
