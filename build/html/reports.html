@@ -1,0 +1,161 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Analysis and Reports &#8212; kqmh 1.0 documentation</title>
+    
+    <link rel="stylesheet" href="_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    './',
+        VERSION:     '1.0',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true,
+        SOURCELINK_SUFFIX: '.txt'
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="3PM Servicedesk" href="support.html" />
+    <link rel="prev" title="Data Entry" href="dataentry.html" />
+   
+  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head>
+  <body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="analysis-and-reports">
+<h1>Analysis and Reports<a class="headerlink" href="#analysis-and-reports" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="pivot-table-analysis">
+<h2>Pivot Table Analysis<a class="headerlink" href="#pivot-table-analysis" title="Permalink to this headline">¶</a></h2>
+<p>The pivot table app enables users to create pivot tables, using all available data dimensions in 3PM. A pivot table is a dynamic tool
+for data analysis which lets you quickly summarize and arrange data according to its dimensions. Examples of data dimensions in 3PM are
+data dimension itself (e.g data elements, indicators and events ), periods (representing the time period for whic the data represents) and
+the organisational hierarchy (representing the geographical location of the data). From these dimensions you can freely select dimension
+items to include in the pivot table. Additional dimensions can be created in 3PM, using the group set functionality, to allow for different
+aggregation pathways, such as aggregation by “Partner” or facility type.
+A pivot table can arrange data dimensions on columns, rows, and as filters. When you place a data dimension on columns, the pivot table will
+display one column per dimension item. If you place multiple data dimensions on columns, the pivot table will display one column for all
+combinations of the items in the selected dimensions. When you place a data dimension on rows, the pivot table will display one row per
+dimension item in a similar fashion. The dimensions you select as filters will not be included in the pivot table, but will aggregate and
+filter the table data based on the selected filter items.
+The work-flow for creating a simple pivot table is:
+* Select dimension items in the left menu, for instance a few data elements or indicators.
+* Click “Layout” on the top menu and arrange the data dimensions as columns, rows, and filters. You can leave the selection as it is if desired.
+* Click “Update”.
+A pivot table similar as below will be displayed. Notice how indicators are listed on columns and periods as rows.</p>
+<p><strong>*Image here</strong></p>
+</div>
+<div class="section" id="reports">
+<h2>Reports<a class="headerlink" href="#reports" title="Permalink to this headline">¶</a></h2>
+<p>Reports functionality can be accessed by clicking on Apps -&gt; More apps -&gt; Reports or by clicking on Apps then searching for Reports
+on the search bar.</p>
+<p><strong>*Image here*</strong></p>
+<p>There are two main types of reports than can be generated from 3PM; Dataset Reports and Standard reports:</p>
+<div class="section" id="dataset-reports">
+<h3>Dataset Reports<a class="headerlink" href="#dataset-reports" title="Permalink to this headline">¶</a></h3>
+<p>Dataset reports are printer friendly views of the data entry screen filled with either raw or aggregated data. These are only available for
+data sets that have custom data entry forms and not for default or section forms.
+You can access data set reports from <em>Apps-&gt;Reports</em>.
+A Criteria window will appear where you fill in the details for your report:
+* <strong>Dataset</strong>: The data set you want to display.
+* <strong>Reporting period</strong>: The actual period you want data for. This can be aggregated as well as raw periods. This means that you can ask for a quarterly or annual report even though the data set is collected monthly. A data set’s period type (collection frequency) is defined in data set maintenance. First select the period type (Monthly, Quarterly, Yearly etc.) in the drop down next to Prev and Next buttons, and then select one of the available periods from the dropdown list below. Use Prev and Next to jump one year back or forward.
+* <strong>Use data for selected unit only</strong>: Use this option if you want a report for an orgunit that has children, but only want the data collected directly for this unit and not the data collected by its children. If you want a typical aggregated report for an orgunit you do not want to tick this option.
+* <strong>Reporting Organisation unit</strong>: Here you select the orgunit you want the report for. This can be at any level in the hierarchy as the data will be aggregated up to this level automatically (if you do not tick the option above).
+When you are done filling in the report criteria you click on * <strong>Generate</strong> <a href="#id1"><span class="problematic" id="id2">*</span></a>. The report will appear as HTML in a printer-friendly format. Use the print and save as functions in the browser to print or save (as HTML) the report.You can also export the data set report in Excel and PDF formats.
+Below is a sample dataset report layout:</p>
+</div>
+<div class="section" id="standard-reports">
+<h3>Standard Reports<a class="headerlink" href="#standard-reports" title="Permalink to this headline">¶</a></h3>
+<p>You access the available reports by navigating to Apps-&gt;Reports. In the report menu in the left bar, click Standard Report. A list of all pre-defined reports will appear in the main window.</p>
+<img alt="_img/phes-standardreport.png" src="_img/phes-standardreport.png" />
+<p>You run/view a report by clicking on the name of the report and then selecting “Create” from the contextual menu. If there are any pre-defined paramaters, you will see a report parameter window where you must fill in the values needed for orgunit and/or reporting month, depending on what has been defined in the underlying report table(s). Click on “Get Report” when you are ready. The report will either appear directly in your browser or be available as a PDF file for download, depending on your browser settings for handling PDF files.
+You can save the file and keep it locally on your computer for later use.</p>
+</div>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Analysis and Reports</a><ul>
+<li><a class="reference internal" href="#pivot-table-analysis">Pivot Table Analysis</a></li>
+<li><a class="reference internal" href="#reports">Reports</a><ul>
+<li><a class="reference internal" href="#dataset-reports">Dataset Reports</a></li>
+<li><a class="reference internal" href="#standard-reports">Standard Reports</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="index.html">Documentation overview</a><ul>
+      <li>Previous: <a href="dataentry.html" title="previous chapter">Data Entry</a></li>
+      <li>Next: <a href="support.html" title="next chapter">3PM Servicedesk</a></li>
+  </ul></li>
+</ul>
+</div>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="_sources/reports.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <form class="search" action="search.html" method="get">
+      <div><input type="text" name="q" /></div>
+      <div><input type="submit" value="Go" /></div>
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2018, kqmh.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 1.6.2</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.10</a>
+      
+      |
+      <a href="_sources/reports.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>
