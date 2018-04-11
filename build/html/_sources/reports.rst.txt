@@ -3,11 +3,11 @@ Analysis and Reports
 
 Pivot Table Analysis
 --------------------
-The pivot table app enables users to create pivot tables, using all available data dimensions in 3PM. A pivot table is a dynamic tool
-for data analysis which lets you quickly summarize and arrange data according to its dimensions. Examples of data dimensions in 3PM are
+The pivot table app enables users to create pivot tables, using all available data dimensions in KQMH. A pivot table is a dynamic tool
+for data analysis which lets you quickly summarize and arrange data according to its dimensions. Examples of data dimensions in KQMH are
 data dimension itself (e.g data elements, indicators and events ), periods (representing the time period for whic the data represents) and
 the organisational hierarchy (representing the geographical location of the data). From these dimensions you can freely select dimension
-items to include in the pivot table. Additional dimensions can be created in 3PM, using the group set functionality, to allow for different
+items to include in the pivot table. Additional dimensions can be created in KQMH, using the group set functionality, to allow for different
 aggregation pathways, such as aggregation by "Partner" or facility type.
 A pivot table can arrange data dimensions on columns, rows, and as filters. When you place a data dimension on columns, the pivot table will
 display one column per dimension item. If you place multiple data dimensions on columns, the pivot table will display one column for all
@@ -29,7 +29,7 @@ on the search bar.
 
 ***Image here***
 
-There are two main types of reports than can be generated from 3PM; Dataset Reports and Standard reports:
+There are two main types of reports than can be generated from KQMH; Dataset Reports and Standard reports:
 
 
 Dataset Reports
@@ -51,7 +51,7 @@ Standard Reports
 ~~~~~~~~~~~~~~~~
 You access the available reports by navigating to Apps->Reports. In the report menu in the left bar, click Standard Report. A list of all pre-defined reports will appear in the main window.
 
-.. image:: _img/phes-standardreport.png
+.. image:: _img/standardreport.png
 
 
 You run/view a report by clicking on the name of the report and then selecting "Create" from the contextual menu. If there are any pre-defined paramaters, you will see a report parameter window where you must fill in the values needed for orgunit and/or reporting month, depending on what has been defined in the underlying report table(s). Click on "Get Report" when you are ready. The report will either appear directly in your browser or be available as a PDF file for download, depending on your browser settings for handling PDF files.
