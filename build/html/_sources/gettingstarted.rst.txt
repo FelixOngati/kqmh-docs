@@ -3,7 +3,8 @@ Getting Started with KQMH
 
 System Access
 -------------
-The system can be accessed on https://kqmh.uonbi.ac.ke
+The system can be accessed on https://kqmh.uonbi.ac.ke. This secure system requires a user name and a password. In case you do not have login credentials to KQMH, you can make an application for user credentials through the Integrated `MOH service Desk <https://servicedesk.health.go.ke>`_. 
+
 
 
 
